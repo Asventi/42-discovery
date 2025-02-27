@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	font-family: 'Courier New', Courier, monospace;
+	color: rgb(69, 68, 68)
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+table
+{
+	background-color: rgb(247, 247, 247);
+	border: 2px solid rgb(106, 104, 104);
+	border-radius: 10%;
+	max-width: 30vw;
+}
+
+th {
+	padding-top: 1vh;
+	font-size: 27px;
+}
+
+.pimage {
+	background-image: url("juan.jpg");
+	border-radius: 5%;
+	width: 100%;
+}
+
+.head {
+	width: 25vh;
+}
+
+.user {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+}
+
+.level {
+	text-align: center;
+}
+
+.progress {
+	text-align: center;
+}
+
+.separator {
+	margin-left: 7%;
+	width: 85%;
+	border: none;
+	border-top: 3px dotted rgb(177, 174, 174);
+}
+
+.icons {
+	text-align: center;
+}
+
+.btn-cell {
+	text-align: center;
+}
+
+.btn {
+	background-color: black;
+	color: whitesmoke;
+	border: 0px solid black;
+	border-radius: 10%;
+	width: 80%;
+	margin-bottom: 2%;
+}
+
+.btn:active {
+	opacity: 70%;
+}

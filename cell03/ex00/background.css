@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+}
+
+div {
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}

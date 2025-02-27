@@ -1,0 +1,24 @@
+table {
+	width: 100vw;
+	height: 100vh;
+}
+table, td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+td {
+	text-align: center;
+	width: 50vw;
+}
+
+body {
+	margin: 0;
+}
+
+.first {
+	background-color: aquamarine;
+}
+
+.second {
+	background-color: rgb(224, 141, 212);
+}
