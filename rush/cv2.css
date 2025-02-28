@@ -1,0 +1,143 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imagefond {
+    background-image: url("clusters.png");
+    background-repeat: no-repeat;
+    height: 97.2vh;
+    background-size: cover;
+}
+
+.containercv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    background-color: wheat;
+}
+
+.cv1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 180vh;
+    width: 70vw;
+    border-radius: 40px;
+    box-shadow: 0 0 15px gray;
+    
+}
+
+.fondcv1 {
+    width: 70vw;
+    height: 180vh;
+    background-image: url("dindon.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    opacity: 20%;
+    position:absolute;
+}
+
+.headcv1 {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 100%;
+    border-bottom: 5px dotted black;
+}
+
+.elossoimg {
+    background-image: url("photo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    height: 30vmin;
+    width: 30vmin;
+    margin: 3.4%;
+    box-shadow: 0 0 20px black;
+}
+
+.textescv1 {
+    width: 75%;
+}
+
+.profcv1 {
+    text-align: center;
+    font-size: 2vmin;
+}
+
+.nomcv1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.presentcv1 {
+    text-align: center;
+    font-size: 2vmin;
+    margin: 2px;
+}
+
+.detailcv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    width: 100%;
+    border-bottom: 5px dotted black;
+}
+
+.compcv1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.titrecompcv1 {
+    margin-top: 10%;
+    font-size: 3vmin;
+}
+
+.compgauchecv1 {
+    width: 50%;
+    font-size: 2vmin;
+}
+
+.compdroitecv1 {
+    font-size: 2vmin;
+}
+
+.expcv1 {
+    margin-top: 10%;
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.explistcv1 {
+    margin-top: 7%;
+    font-size: 2vmin;
+    text-align: left;
+}
+
+.contactscv1 {
+    margin-top: 40%;
+    font-size: 4vmin;
+    text-align: center;
+}
+
+.contactlistcv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 5;
+    gap: 20px;
+    margin-top: 3%;
+    font-size: 1.5vmin;
+    text-align: center;
+    margin-bottom: 100%;
+}
